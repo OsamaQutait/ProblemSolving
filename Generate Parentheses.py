@@ -1,6 +1,14 @@
 def generateParenthesis(n):
     stack = []
     arr = []
+    #
+    #
+    #
+
+#
+#
+#
+
     def backTrack(open, close):
         if open == close == n:
             arr.append("".join(stack))
